@@ -129,9 +129,7 @@ public class AnimalManager {
 
   public void Menu() {
     while (true) {
-      Console.WriteLine("\n1 - show me animals.");
-      Console.WriteLine("2 - add animal");
-      Console.WriteLine("0 - nah. bye.");
+      Console.WriteLine("\n 1 - show me animals.\n 2 - add animal \n 0 - nah. bye.");
 
       string choice = Console.ReadLine();
 
@@ -155,12 +153,8 @@ public class AnimalManager {
   }
 
   private void CreateAnimal() {
-    Console.WriteLine("Type:");
-    Console.WriteLine("1 - Mammal");
-    Console.WriteLine("2 - Bird");
-    Console.WriteLine("3 - Fish");
-    Console.WriteLine("4 - Reptile");
-    Console.WriteLine("5 - Amphibian");
+    Console.WriteLine("\n Type:\n 1 - Mammal \n 2 - Bird \n 3 - Fish \n 4 - Reptile \n 5 - Amphibian");
+
 
     string type = Console.ReadLine();
 
@@ -211,4 +205,5 @@ public class AnimalManager {
         Console.WriteLine("nah.");
         break;
     }
+
   }
